@@ -12,7 +12,7 @@ const Hero = (props) => (
         Robert Dalmacio
       </SectionTitle>
       <SectionText>
-        A previous Testing Automotive Engineer seeking a new oppurtunity as a Full Stack Developer.
+        A previous Automotive Testing Engineer seeking a new oppurtunity as a Full Stack Developer.
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com/'}>Learn More</Button>
     </LeftSection>

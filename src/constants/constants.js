@@ -16,7 +16,7 @@ export const projects = [
     description:`My full-stack web application is a watchlist where users can make an account to discuss and favorite the current hottest Netflix series. The key features are:`,
     features: [`A Home page displaying a different show from each ‘Trending Now’, ‘New Release’, and ‘Netflix Exclusive’ categories.`, `A Directory page featuring a collection of Netflix series.`, `A separate routing page for each series, where authenticated users can discuss with one another in the comments section.`, `A Favorites page containing all of the registered users’ favorite Netflix series.`],
     image: ['/images/netflix-watchlists1.png', '/images/netflix-watchlists2.png', '/images/netflix-watchlists3.png', '/images/netflix-watchlists4.png', '/images/netflix-watchlists5.png', '/images/netflix-watchlists6.png', '/images/netflix-watchlists7.png',],
-    tags: ['React', 'JavaScript', 'Mongo', 'Express', 'Node'],
+    tags: ['React', 'JavaScript', 'Mongo', 'Express', 'Node.js', 'Redux'],
     source: 'https://github.com/RobertDalmacio/netflix-watchlist',
     visit: 'https://google.com',
     id: 1,

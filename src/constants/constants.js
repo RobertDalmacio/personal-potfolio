@@ -36,9 +36,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 'Aug. 2017', text: 'Graduated with B.SC Electrical and Computer Engineering from the University of Windsor', },
+  { year: 'Sept. 2017', text: 'Worked as a Production Assembly Engineer at TRQSS Inc.', },
+  { year: 'Jan. 2019', text: 'Worked as an Automotive Testing Engineer at Kautex Textron', },
+  { year: 'Jul. 2022', text: 'Graduated from Full Stack Web + Mobile Development NuCamp Bootcamp', },
 ];

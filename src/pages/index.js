@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import Head from 'next/head'
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
@@ -8,9 +8,20 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import {BsArrowUpSquare} from 'react-icons/bs'
-import { FaUser } from 'react-icons/fa';
 
 const Home = () => {
+  const [backToTopButton, setBackToTopButton] = useState(false)
+  
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 550) {
+        setBackToTopButton(true)
+      } else {
+        setBackToTopButton(false)
+      }
+    })
+  })
+
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -32,7 +43,8 @@ const Home = () => {
       <Timeline />
       <Projects />
       {/* <Acomplishments /> */}
-      <button
+      { backToTopButton && (
+        <button
         onClick={() => {
           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
         }}
@@ -47,9 +59,10 @@ const Home = () => {
           textAlign: 'center',
           cursor: 'pointer'
         }}
-      >
-        <BsArrowUpSquare size='3rem' />
-      </button>
+        >
+          <BsArrowUpSquare size='3rem' />
+        </button>
+      )}
     </Layout>
   );
 };

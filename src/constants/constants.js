@@ -25,8 +25,7 @@ export const projects = [
     title: 'Blink FanPage V1',
     subTitle: 'Front-End Web Application',
     description: `My static bootstrap website is a fan page for the Kpop group Blackpink. The goal of this website is to act as a central information hub for the latest news, social posts, and updates pertaining to the members of Blackpink. The key features are:`,
-    features: [`Login and Signup pop-up modal to allow registered users to login, and new users to signup for an account using bootstrap-styled forms.
-    Biography, interesting facts and social media links of each group member displayed using bootstrap accordions.`, `Discography carousel using Owl-Carousel a jQuery plugin, displaying the group’s albums in a bootstrap card element.`, `Latest news section showcasing categorized news posts and displayed using bootstrap tabs.`, `Recent tweets carousel also uses Owl-Carousel, displaying recent tweets from the group and each members' Twitter accounts.`],
+    features: [`Login and Signup pop-up modal to allow registered users to login, and new users to signup for an account using bootstrap-styled forms.`, `Biography, interesting facts and social media links of each group member displayed using bootstrap accordions.`, `Discography carousel using Owl-Carousel a jQuery plugin, displaying the group’s albums in a bootstrap card element.`, `Latest news section showcasing categorized news posts and displayed using bootstrap tabs.`, `Recent tweets carousel also uses Owl-Carousel, displaying recent tweets from the group and each members' Twitter accounts.`],
       image: ['/images/blink-v1-homepage.png', '/images/blink-v1-login.png', '/images/blink-v1-signup.png', '/images/blink-v1-members.png', '/images/blink-v1-albums.png', '/images/blink-v1-news.png', '/images/blink-v1-tweets.png'],
       tags: ['HTML/CSS', 'JavaScript', 'jQuery', 'Bootstrap 5'],
     source: 'https://github.com/RobertDalmacio/blink-website-v1-FE',

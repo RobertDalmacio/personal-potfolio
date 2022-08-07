@@ -11,9 +11,9 @@ const Hero = (props) => (
         Hi, My Name is<br />
         Robert Dalmacio
       </SectionTitle>
-      <SectionText>
-        A previous Automotive Testing Engineer seeking a new oppurtunity as a Full Stack Developer.
-      </SectionText>
+      <SectionTitle>
+        Full Stack Developer
+      </SectionTitle>
       <Button onClick={() => window.location = 'https://google.com/'}>Learn More</Button>
     </LeftSection>
   </Section>

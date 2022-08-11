@@ -14,7 +14,7 @@ export const projects = [
     title: 'Netflix WatchList',
     subTitle: 'Full-Stack Web Application',
     description:`My full-stack web application is a watchlist where users can make an account to discuss and favorite the current hottest Netflix series. The key features are:`,
-    features: [`A Home page displaying a different show from each ‘Trending Now’, ‘New Release’, and ‘Netflix Exclusive’ categories.`, `A Directory page featuring a collection of Netflix series.`, `A separate routing page for each series, where authenticated users can discuss with one another in the comments section.`, `A Favorites page containing all of the registered users’ favorite Netflix series.`],
+    features: [`A Home page displaying a different show from each ‘Trending Now’, ‘New Release’, and ‘Netflix Exclusive’ categories.`, `A Directory page featuring a collection of Netflix series.`, `A separate routing page for each series, where authenticated users can leave comments in a comments section.`, `A Favorites page containing all of the registered users’ favorite Netflix series.`],
     image: ['/images/netflix-watchlists1.png', '/images/netflix-watchlists2.png', '/images/netflix-watchlists3.png', '/images/netflix-watchlists4.png', '/images/netflix-watchlists5.png', '/images/netflix-watchlists6.png', '/images/netflix-watchlists7.png',],
     tags: ['React', 'JavaScript', 'Mongo', 'Express', 'Node.js', 'Redux'],
     source: 'https://github.com/RobertDalmacio/netflix-watchlist',
@@ -29,7 +29,7 @@ export const projects = [
       image: ['/images/blink-v1-homepage.png', '/images/blink-v1-login.png', '/images/blink-v1-signup.png', '/images/blink-v1-members.png', '/images/blink-v1-albums.png', '/images/blink-v1-news.png', '/images/blink-v1-tweets.png'],
       tags: ['HTML/CSS', 'JavaScript', 'jQuery', 'Bootstrap 5'],
     source: 'https://github.com/RobertDalmacio/blink-website-v1-FE',
-    visit: 'https://google.com',
+    visit: 'https://blink-website-v1-fe.vercel.app/',
     id: 2,
   }
 ];

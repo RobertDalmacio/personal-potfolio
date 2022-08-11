@@ -33,7 +33,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            <SiMongodb size='3rem'/> Mongo.db
+            <SiMongodb size='3rem'/> MongoDB
           </ListParagraph>
           <ListParagraph>
             <SiExpress size='3rem'/> Express

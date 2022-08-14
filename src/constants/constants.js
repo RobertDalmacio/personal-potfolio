@@ -7,7 +7,7 @@ export const projects = [
     image: ['/images/blink_v2_homepage.png', '/images/blink_v2_members.png', '/images/blink_v2_albums.png', '/images/blink_v2_news.png', '/images/blink_v2_news2.png', '/images/blink_v2_news3.png', '/images/blink_v2_news4.png', '/images/blink_v2_forum.png', '/images/blink_v2_forum2.png', '/images/blink_v2_forum3.png', '/images/blink_v2_forum4.png', '/images/blink_v2_forum5.png'],
     tags: ['React /Next.js', 'JavaScript /TypeScript', 'Bootstrap 5 & Chakra UI ', 'Google Firebase v9', 'Recoil'],
     source: 'https://github.com/RobertDalmacio/blink-website-v2-FS',
-    visit: 'https://google.com',
+    visit: 'https://github.com/RobertDalmacio/blink-website-v2-FS',
     id: 0,
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     image: ['/images/netflix-watchlists1.png', '/images/netflix-watchlists2.png', '/images/netflix-watchlists3.png', '/images/netflix-watchlists4.png', '/images/netflix-watchlists5.png', '/images/netflix-watchlists6.png', '/images/netflix-watchlists7.png',],
     tags: ['React', 'JavaScript', 'Mongo', 'Express', 'Node.js', 'Redux'],
     source: 'https://github.com/RobertDalmacio/netflix-watchlist',
-    visit: 'https://google.com',
+    visit: 'https://github.com/RobertDalmacio/blink-website-v2-FS',
     id: 1,
   },
   {

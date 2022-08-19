@@ -7,7 +7,7 @@ export const projects = [
     image: ['/images/blink_v2_homepage.png', '/images/blink_v2_members.png', '/images/blink_v2_albums.png', '/images/blink_v2_news.png', '/images/blink_v2_news2.png', '/images/blink_v2_news3.png', '/images/blink_v2_news4.png', '/images/blink_v2_forum.png', '/images/blink_v2_forum2.png', '/images/blink_v2_forum3.png', '/images/blink_v2_forum4.png', '/images/blink_v2_forum5.png'],
     tags: ['React /Next.js', 'JavaScript /TypeScript', 'Bootstrap 5 & Chakra UI ', 'Google Firebase v9', 'Recoil'],
     source: 'https://github.com/RobertDalmacio/blink-website-v2-FS',
-    visit: 'https://github.com/RobertDalmacio/blink-website-v2-FS',
+    visit: 'https://blink-website-v2-fs.vercel.app/',
     id: 0,
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     image: ['/images/netflix-watchlists1.png', '/images/netflix-watchlists2.png', '/images/netflix-watchlists3.png', '/images/netflix-watchlists4.png', '/images/netflix-watchlists5.png', '/images/netflix-watchlists6.png', '/images/netflix-watchlists7.png',],
     tags: ['React', 'JavaScript', 'Mongo', 'Express', 'Node.js', 'Redux'],
     source: 'https://github.com/RobertDalmacio/netflix-watchlist',
-    visit: 'https://github.com/RobertDalmacio/blink-website-v2-FS',
+    visit: 'http://3.144.173.107/home',
     id: 1,
   },
   {
@@ -38,5 +38,6 @@ export const TimeLineData = [
   { year: 'Aug. 2017', text: 'Graduated with B.SC Electrical and Computer Engineering from the University of Windsor', },
   { year: 'Sept. 2017', text: 'Worked as a Production Assembly Engineer at TRQSS Inc.', },
   { year: 'Jan. 2019', text: 'Worked as an Automotive Testing Engineer at Kautex Textron', },
-  { year: 'Jul. 2022', text: 'Graduated from Full Stack Web + Mobile Development NuCamp Bootcamp', },
+  { year: 'Feb. 2022', text: 'Joined Full Stack Web + Mobile Development NuCamp Bootcamp', },
+  { year: 'Jul. 2022', text: 'Graduated with Honors from Full Stack Web + Mobile Development NuCamp Bootcamp', },
 ];

@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionTitle>
         Full Stack Developer
       </SectionTitle>
-      <Button onClick={() => window.location = 'https://google.com/'}>Learn More</Button>
+      <Button onClick={() => window.open('https://linkedin.com/in/robertdalmacio', '_blank')}>Learn More</Button>
     </LeftSection>
   </Section>
 );

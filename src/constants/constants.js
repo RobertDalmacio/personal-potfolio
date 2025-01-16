@@ -40,4 +40,5 @@ export const TimeLineData = [
   { year: 'Jan. 2019', text: 'Worked as an Automotive Testing Engineer at Kautex Textron', },
   { year: 'Feb. 2022', text: 'Joined Full Stack Web + Mobile Development NuCamp Bootcamp', },
   { year: 'Jul. 2022', text: 'Graduated with Honors from Full Stack Web + Mobile Development NuCamp Bootcamp', },
+  { year: 'Oct. 2022', text: 'Joined IndustrialWebApps.com as a Full Stack Developer', },
 ];
